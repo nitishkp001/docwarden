@@ -10,6 +10,15 @@ readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
 keywords = ["mcp", "docs", "documentation", "llm", "claude", "cursor"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Utilities",
+]
 dependencies = [
     "mcp[cli]>=1.0.0",
     "httpx>=0.27.0",
@@ -17,6 +26,11 @@ dependencies = [
     "pydantic>=2.7.0",
     "pyyaml>=6.0.2",
 ]
+
+[project.urls]
+Homepage = "https://github.com/nitishkp001/docwarden"
+Repository = "https://github.com/nitishkp001/docwarden"
+"Bug Tracker" = "https://github.com/nitishkp001/docwarden/issues"
 
 [project.scripts]
 docwarden = "docwarden.cli:main"

@@ -21,7 +21,7 @@ def _claude_config_path() -> Path:
         import os
 
         return Path(os.environ["APPDATA"]) / "Claude/claude_desktop_config.json"
-    return Path.home() / ".config/claude/claude_desktop_config.json"
+    return Path.home() / ".config/Claude/claude_desktop_config.json"
 
 
 def _cursor_config_path() -> Path:
