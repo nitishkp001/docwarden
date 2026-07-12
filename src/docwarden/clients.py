@@ -10,7 +10,7 @@ SUPPORTED_CLIENTS = ("claude", "cursor", "vscode")
 
 _SERVER_ENTRY = {
     "command": "uvx",
-    "args": ["docwarden", "run"],
+    "args": ["docswarden", "run"],
 }
 
 

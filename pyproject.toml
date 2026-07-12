@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "docwarden"
+name = "docswarden"
 version = "0.1.0"
 description = "Local-first MCP server that indexes framework docs into a searchable local index"
 readme = "README.md"
@@ -33,7 +33,7 @@ Repository = "https://github.com/nitishkp001/docwarden"
 "Bug Tracker" = "https://github.com/nitishkp001/docwarden/issues"
 
 [project.scripts]
-docwarden = "docwarden.cli:main"
+docswarden = "docwarden.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/docwarden"]
